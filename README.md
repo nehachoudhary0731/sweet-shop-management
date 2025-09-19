@@ -15,16 +15,24 @@ Database Management: PostgreSQL with SQLAlchemy ORM
  ## Tech Stack
 ## Backend
 Framework: FastAPI with Python 3.9
+
 Database: PostgreSQL with SQLAlchemy ORM
+
 Authentication: JWT tokens with OAuth2 password flow
+
 Testing: Pytest with comprehensive test coverage
+
 Migrations: Alembic for database migrations
 
 # Frontend
 Framework: React 18 with TypeScript
+
 Build Tool: Vite
+
 HTTP Client: Axios for API communication
+
 Styling: CSS3 with modern responsive design
+
 State Management: React Context for authentication
 
 # DevOps
@@ -102,17 +110,26 @@ ChatGPT: For architecture design and complex problem-solving
 AI-assisted testing: For generating comprehensive test cases
 ## How I Used AI
 API Design: AI assisted in designing RESTful endpoint structures and request/response schemas
+
 Database Schema: Helped design efficient PostgreSQL table structures and relationships
+
 Authentication: Guided JWT implementation with proper security practices
+
 Error Handling: Suggested comprehensive error handling patterns
+
 Testing: Generated pytest fixtures and test cases for maximum coverage
+
 Docker Configuration: Assisted with multi-container Docker setup
 
 ## Impact on Workflow
 40% faster development through AI-assisted coding
+
 Improved code quality with AI-reviewed best practices
+
 Comprehensive test coverage with AI-generated test cases
+
 Better architecture decisions through AI brainstorming sessions
+
 
 
 
