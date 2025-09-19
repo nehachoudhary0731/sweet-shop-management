@@ -43,31 +43,13 @@ A full-stack web application for managing a sweet shop inventory, purchases, and
 
 ### Quick Start with Docker
 ```bash
-## Update README with correct clone URL
+##  clone URL
 sed -i 's/YOUR_USERNAME/nehachoudhary0731/g' README.md
 
 # Commit and push the update
 git add README.md
 git commit -m "docs: Update README with correct GitHub URL"
-git push origin main
+git push origin main ```
 
- # My AI Usage
-Tools Used
-GitHub Copilot: For code completion and suggestions
-
-ChatGPT: For architecture design and complex problem-solving
-
-AI-assisted testing: For generating comprehensive test cases
-
-# How I Used AI
-1.API Design: AI assisted in designing RESTful endpoint structures and request/response schemas
-
-2.Database Schema: Helped design efficient PostgreSQL table structures and relationships
-
-3.Authentication: Guided JWT implementation with proper security practices
-
-4.Error Handling: Suggested comprehensive error handling patterns
-
-5.Testing: Generated pytest fixtures and test cases for maximum coverage
-
-6.Docker Configuration: Assisted with multi-container Docker setup
+ 
+ 
