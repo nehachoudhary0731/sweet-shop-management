@@ -1,0 +1,38 @@
+services:
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: sweet_shop
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend
+    command: uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/sweet_shop
+    depends_on:
+      - db
+    env_file:
+      - .env
+
+  # frontend:
+  #   build: ./frontend
+  #   ports:
+  #     - "3000:80"
+  #   volumes:
+  #     - ./frontend:/app
+  #     - /app/node_modules
+  #   depends_on:
+  #     - backend
+
+volumes:
+  postgres_data:
