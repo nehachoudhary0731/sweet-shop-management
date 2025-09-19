@@ -3,14 +3,21 @@ A full-stack web application for managing a sweet shop inventory, purchases, and
 React, TypeScript, and PostgreSQL following Test-Driven Development principles.
 
 # Features
-User Authentication: JWT-based registration and login system
-Sweet Management: Full CRUD operations for sweet products
-Inventory Control: Purchase and restock functionality with real-time updates
-Search & Filter: Advanced search by name, category, and price range
-Admin Dashboard: Special privileges for admin users
-Responsive Design: Modern UI that works on all devices
-RESTful API: Clean, well-documented API endpoints
-Database Management: PostgreSQL with SQLAlchemy ORM
+-User Authentication: JWT-based registration and login system
+
+-Sweet Management: Full CRUD operations for sweet products
+
+-Inventory Control: Purchase and restock functionality with real-time updates
+
+-Search & Filter: Advanced search by name, category, and price range
+
+-Admin Dashboard: Special privileges for admin users
+
+-Responsive Design: Modern UI that works on all devices
+
+-RESTful API: Clean, well-documented API endpoints
+
+-Database Management: PostgreSQL with SQLAlchemy ORM
 
  ## Tech Stack
 ## Backend
@@ -129,6 +136,7 @@ Improved code quality with AI-reviewed best practices
 Comprehensive test coverage with AI-generated test cases
 
 Better architecture decisions through AI brainstorming sessions
+
 
 
 
