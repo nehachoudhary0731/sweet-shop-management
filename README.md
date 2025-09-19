@@ -114,7 +114,9 @@ sweet-shop-management/
 ## My AI Usage
 # Tools Used
 GitHub Copilot: For code completion and suggestions
+
 ChatGPT: For architecture design and complex problem-solving
+
 AI-assisted testing: For generating comprehensive test cases
 ## How I Used AI
 API Design: AI assisted in designing RESTful endpoint structures and request/response schemas
@@ -137,6 +139,7 @@ Improved code quality with AI-reviewed best practices
 Comprehensive test coverage with AI-generated test cases
 
 Better architecture decisions through AI brainstorming sessions
+
 
 
 
