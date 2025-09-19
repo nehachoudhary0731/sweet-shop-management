@@ -64,8 +64,9 @@ cp .env.example .env
 docker-compose up --build
 
 ## Run Tests
-bash
+base
 cd backend
+
 pytest -v
 
 ## With coverage report
@@ -136,6 +137,7 @@ Improved code quality with AI-reviewed best practices
 Comprehensive test coverage with AI-generated test cases
 
 Better architecture decisions through AI brainstorming sessions
+
 
 
 
